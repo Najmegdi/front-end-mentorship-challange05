@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Key Storage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- BEM -->
+  <main>
+
+    <section id="api" class="flex">
+
+      <form action="post" id="form" onsubmit="return false">
+        <div class="form-group">
+          <label for="user_name" class="">User Name</label>
+          <input id="user_name" name="user_name" class="" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="api_key">API Key</label>
+          <input id="api_key" name="api_key" class="" type="text" />
+        </div>
+        <div class="form-group">
+          <label for="api_secret">API Secret</label>
+          <input id="api_secret" name="api_secret" class="" type="text" />
+        </div>
+        <div>
+          <button id="btn-submit" class="btn-primary">Submit</button>
+        </div>
+      </form>
+    <div class="table-info">
+      <div class="api__list">
+        <h3>API Key Manager</h3>
+      </div>
+      <div class="table-section">
+      <table class="table">
+        <thead>
+          <tr class="tr-table">
+            <th scope="col">#</th>
+            <th scope="col">User Name</th>
+            <th scope="col">Api Key</th>
+            <th scope="col">Api Secret</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody id="tbody-data">
+          <tr>
+            <th scope="row">1</th>
+            <td>rass</td>
+            <td>aslm1254jhg</td>
+            <td>nbhv********p2</td>
+            <td> <button class="btn-style btn-del" type="submit">Delete</button>
+              <button class="btn-style btn-edit"type="submit">Edit</button>
+            </td>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>aslm1254jhg</td>
+            <td>nbhv********p2</td>
+            <td> <button class="btn-style btn-del" type="submit">Delete</button>
+              <button class="btn-style btn-edit" type="submit">Edit</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>aslm1254jhg</td>
+            <td>nbhv********p2</td>
+            <td> <button class="btn-style btn-del" type="submit">Delete</button>
+              <button  class="btn-style btn-edit" type="submit">Edit</button>
+            </td>
+          </tr>
+
+        </tbody>
+      </table> 
+    </div>
+    </section>
+
+  </main>
+
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>

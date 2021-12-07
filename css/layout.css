@@ -1,0 +1,185 @@
+*, *::after , *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+label ,input, button, textarea {
+  font-family: inherit;
+  font-weight: bold;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+main {
+  min-height: 100vh;
+}
+
+#api {
+  padding : 2rem;
+  height: 100vh;
+}
+
+
+.btn-primary {
+  padding: 1rem 4rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 1rem;
+  transition: 300ms;
+  color: snow;
+  background: rgb(250, 87, 11);
+}
+
+.btn-primary:hover {
+  background:dodgerblue;
+  color: snow;
+  cursor: pointer;
+}
+/* DANK Mono */
+/* flex helper */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  
+   /* width: 40%;  */
+  /* margin: 2rem; */
+}
+.form-group label {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: .5rem ;
+}
+.form-group input {
+  background: rgb(242, 240, 243);
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 4rem;
+}
+#btn-submit{
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+.table-info{
+  /* width: 45%; */
+  margin-left: 6rem;
+  margin-bottom: 9.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.api__list{
+  padding: 2rem;
+  font-size: x-large;
+}
+.table-section{
+  background: rgb(242, 240, 243);
+  border-radius: 10px;
+  width: 45vw;
+}
+.table {
+  border-spacing:0;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 5px;
+  width: 98%;
+}
+.table thead {
+  background: rgb(204, 203, 204);
+}
+.table tr th:first-child{
+  border-radius: 5px 0 0 5px;
+}
+.table tr th:last-child{
+  border-radius: 0 5px 5px 0;
+}
+.table tr th {
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+#tbody-data tr td{
+  padding-right: 2rem;
+}
+
+.btn-style{
+  margin: 1rem 0;
+  margin-right: 1rem;
+  padding:.8rem .5rem;
+  font-size: 1rem;
+  color: snow;
+  border: none;
+  border-radius: 10px;
+  font-weight:300;
+}
+.btn-edit{
+background:dodgerblue ;
+}
+.btn-del{
+  background: rgb(250, 87, 11);
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.content-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* sizes helper */
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.mx  {
+  margin: 0 1.5rem;
+}
+
+.my {
+  margin: 1.5rem 0;
+}
