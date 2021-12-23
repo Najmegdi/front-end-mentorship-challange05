@@ -66,6 +66,32 @@ main {
   padding: 1rem .5rem;
   width: 20vw;
 }
+.alert-box{
+    display: none;
+    visibility: hidden;
+}
+.alert{
+    padding:1rem .6rem;
+    background-color: #fab3ae;
+    color: white;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-top:.5rem ;
+    }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
 .submit_button{
   display: flex;
   justify-content: center;

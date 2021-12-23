@@ -24,8 +24,8 @@
 
       <form action="post" id="form" onsubmit="return false">
         <div class="form-group">
-          <label for="user_name" class="">User Name</label>
-          <input id="user_name" name="user_name" class="" type="text" />
+          <label for="username" class="">User Name</label>
+          <input id="username" name="username" class="" type="text" />
         </div>
         <div class="form-group">
           <label for="api_key">API Key</label>
@@ -35,8 +35,12 @@
           <label for="api_secret">API Secret</label>
           <input id="api_secret" name="api_secret" class="" type="text" />
         </div>
+        <div id="alert-box" class="alert-box alert">
+          <span class="closebtn">&times;</span>  
+          <strong>Danger!</strong> Please fill out the filds.
+        </div>
         <div class="submit_button">
-          <button id="btn-submit" class="btn-primary">Submit</button>
+          <button id="btn_submit" class="btn-primary">Submit</button>
         </div>
       </form>
     <div class="table-info">
